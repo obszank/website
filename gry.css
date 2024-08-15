@@ -1,4 +1,9 @@
-#one{
+#one {
 	font-size: 30px;
 	font-family: "Monaco", "Courier New", monospace;
+}
+
+#launch {
+	font-size: 30px;
+	font-family: "Monaco", "Courier New", monospace
 }
