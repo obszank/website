@@ -1,0 +1,100 @@
+#Button1 {
+	background-color: #4CAF50; /*Zielone tło */
+	border: none; /* linie do okola usuwane */
+	color: black; /*czarny tekst */
+	padding: 15px 32px; /* rozmiar*/
+	text-align: center; 
+	text-decoration: none; /* podkreslenie brak*/
+	display: inline-block; 
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 8px
+}
+#Button1:hover {
+	background-color: #45a049;	
+	
+}
+
+/* Basic Button Styling
+**1. Color and Background:
+
+color: Sets the text color.
+background-color: Sets the background color.
+border-color: Sets the border color.
+**2. Borders:
+
+border: Defines the border width, style, and color.
+border-radius: Rounds the corners of the button.
+**3. Font and Text:
+
+font-size: Sets the size of the text.
+font-family: Defines the font family.
+font-weight: Adjusts the thickness of the font.
+text-transform: Controls text capitalization.
+text-align: Aligns text within the button.
+**4. Padding and Margin:
+
+padding: Adds space inside the button around the text.
+margin: Adds space outside the button.
+**5. Dimensions:
+
+width: Defines the width of the button.
+height: Defines the height of the button.
+**6. Cursor and Appearance:
+
+cursor: Sets the type of cursor to be displayed (e.g., pointer for clickable buttons).
+appearance: Controls the default styling applied by the browser (e.g., none to remove default styling).
+**7. Box Shadow and Effects:
+
+box-shadow: Adds shadow effects around the button.
+outline: Defines the outline around the button, used for focus states.
+**8. Hover and Active States:
+
+:hover: Styles the button when the mouse hovers over it.
+:active: Styles the button when it is clicked or pressed.
+:focus: Styles the button when it has keyboard focus. */
+
+/* button {
+    /* Basic Styling */
+/*    background-color: #4CAF50; /* Green background */
+/*    color: white; /* White text */
+/*    border: 2px solid #4CAF50; /* Green border */
+/*    border-radius: 12px; /* Rounded corners */
+/*    font-size: 16px; /* Font size */
+/*    font-family: Arial, sans-serif; /* Font family */
+/*    font-weight: bold; /* Bold text */
+/*    text-transform: uppercase; /* Uppercase text */
+/*    text-align: center; /* Center text */
+/*    padding: 10px 20px; /* Padding */
+/*    margin: 10px; /* Margin */
+/*    width: auto; /* Auto width based on content */
+/*    height: auto; /* Auto height based on content */
+/*    cursor: pointer; /* Pointer cursor on hover */
+/*    appearance: none; /* Remove default styling (browser-specific) */
+    
+    /* Box Shadow */
+/*    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    
+    /* Outline */
+/*    outline: none; /* Remove default outline */
+}
+
+/* Hover Effect */
+/*button:hover {
+    background-color: #45a049; /* Darker green on hover */
+/*    border-color: #45a049; /* Darker green border */
+}
+
+/* Active Effect */
+/*button:active {
+    background-color: #397d34; /* Even darker green when clicked */
+/*    border-color: #397d34; /* Even darker green border */
+/*    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Smaller shadow */
+}
+
+/* Focus Effect */
+/*button:focus {
+    border-color: #0056b3; /* Blue border on focus */
+/*    box-shadow: 0 0 0 3px rgba(0, 82, 204, 0.3); /* Blue shadow for focus */
+}
