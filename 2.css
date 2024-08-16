@@ -1,4 +1,4 @@
-#buttonBack {
+#backButton {
 	background-color: #4CAF50; /*Zielone tło */
 	border: none; /* linie do okola usuwane */
 	color: black; /*czarny tekst */
@@ -11,7 +11,7 @@
 	cursor: pointer;
 	border-radius: 8px
 }
-#buttonBack:hover {
+#backButton:hover {
 	background-color: #45a049;	
 	
 }
