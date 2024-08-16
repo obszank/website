@@ -1,0 +1,17 @@
+#buttonBack {
+	background-color: #4CAF50; /*Zielone tło */
+	border: none; /* linie do okola usuwane */
+	color: black; /*czarny tekst */
+	padding: 15px 32px; /* rozmiar*/
+	text-align: center; 
+	text-decoration: none; /* podkreslenie brak*/
+	display: inline-block; 
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 8px
+}
+#buttonBack:hover {
+	background-color: #45a049;	
+	
+}
